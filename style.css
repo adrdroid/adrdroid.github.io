@@ -1,0 +1,231 @@
+body {
+  background-color: #1e1d2b;
+  color: #fff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Navbar */
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #2f3042;
+  color: #fff;
+}
+
+#h4-title {
+  font-family: "Autour One", cursive;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Our Service */
+#card-service img:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+#card-service:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.dn {
+  color: #2f3042;
+}
+
+/* Gallery */
+#gallery {
+  background-color: #2f3042;
+  padding-bottom: 3rem !important;
+}
+
+.gallery-card {
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: #222433;
+  align-items: center;
+}
+
+.card:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Contact Us */
+.my-alert {
+  padding: 0.375rem 0.75rem;
+}
+
+.alert-dismissible .btn-close {
+  padding: 0.64rem 0.75rem;
+}
+
+.form-control {
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+}
+
+.form-control:focus-within {
+  background-color: #222433;
+  color: #fff;
+}
+
+.btn-send {
+  width: 100%;
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+}
+
+.btn-send:hover {
+  background-color: #222433;
+  color: #fff;
+}
+
+.btn-loading {
+  width: 100%;
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+}
+
+#gmap_canvas {
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.share-this {
+  display: inline-block;
+  margin: 0;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000;
+  background: #fff;
+  padding: 0 10px;
+  margin-top: 3px;
+}
+
+#share-container {
+  background: #2f3042;
+  width: 100%;
+  display: inline-block;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+#share {
+  width: 100%;
+  text-align: center;
+}
+
+#share a {
+  width: 20%;
+  height: 40px;
+  display: block;
+  font-size: 24px;
+  color: #fff;
+  transition: opacity 0.15s linear;
+  float: left;
+}
+
+#share i {
+  top: 8px;
+  margin-left: 10px;
+  font-style: normal;
+  white-space: nowrap;
+}
+
+#share svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: -1px;
+}
+
+#share a:hover svg path {
+  fill: #fff;
+}
+
+.blogger {
+  border-color: #ff5722;
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+
+.blogger:hover {
+  background: #ff5722;
+}
+
+.facebook {
+  border-color: #3a579a;
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+
+.facebook:hover {
+  background: #3a579a;
+}
+
+.instagram {
+  border-color: #8134af;
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+
+.instagram:hover {
+  background: #8134af;
+}
+
+.whatsapp {
+  border-color: #25d366;
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+
+.whatsapp:hover {
+  background: #25d366;
+}
+
+.youtube {
+  border-color: #cb2027;
+  border-top-width: 3px;
+  border-top-style: solid;
+}
+
+.youtube:hover {
+  background: #cb2027;
+}
+
+/* Footer */
+footer {
+  background-color: #2f3042;
+  padding-bottom: 25px;
+}
+
+footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+}

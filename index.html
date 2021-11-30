@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>AdrianDroid</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #2f3042" data-aos="zoom-out-down">
+     <div class="container">
+       <a class="navbar-brand" href="#">
+         <img src="img/logo.png" width="35" height="35" alt="" />
+       </a>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="#">Home</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#services">Services</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#gallery">Gallery</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#contact">Contact</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+    
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-md-8 mb-3" data-aos="zoom-in">
+            <img src="img/Desk.png" alt="AdrianDroid" width="100%" />
+          </div>
+          <div class="col-md-4 title">
+            <h2 id="h4-title" data-aos="fade-down">ADRIANDROID</h2>
+            <h6 id="p-tittle" data-aos="fade-up">ANDROID FLASHER</h6>
+            <br />
+            <div class="opening">
+              <h6 data-aos="zoom-in-down">Today's Hours</h6>
+              <p id="hours" data-aos="zoom-in-up"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#1e1d2b"
+          fill-opacity="1"
+          d="M0,96L48,101.3C96,107,192,117,288,106.7C384,96,480,64,576,74.7C672,85,768,139,864,149.3C960,160,1056,128,1152,112C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Jumbotron -->
+
+    <!-- About Us -->
+    <section id="services">
+      <div class="container justify-content-center mb-3">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h3 data-aos="fade-down" data-aos-offset="300">OUR SERVICES</h3>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mb-5">
+          <div class="col-md-3 mb-3">
+            <div class="card" id="card-service" data-aos="fade-right" data-aos-offset="300" data-aos-delay="300">
+              <img class="pt-3" width="123" height="200" src="img/icon1.png" alt="icon" data-tilt/>
+              <hr />
+              <p data-aos="fade-down" data-aos-delay="500">Bypass FRP</p>
+              <p data-aos="fade-down" data-aos-delay="600">Bypass Mi Account</p>
+              <p data-aos="fade-down" data-aos-delay="700">Forgot Screen Lock</p>
+              <p data-aos="fade-down" data-aos-delay="800">Unlock Bootloader</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" id="card-service" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="300">
+              <img class="pt-3" width="123" height="200" src="img/icon4.png" alt="icon" data-tilt/>
+              <hr />
+              <p data-aos="fade-down" data-aos-delay="500">Remove Bloatware</p>
+              <p data-aos="fade-down" data-aos-delay="600">Software Problem</p>
+              <p class="dn">-</p>
+              <p class="dn">-</p>
+            </div>
+          </div>
+          <div class="col-md-3 mb-3">
+            <div class="card" id="card-service" data-aos="fade-left" data-aos-offset="300" data-aos-delay="300">
+              <img class="pt-3 icon" width="123" height="200" src="img/icon2.png" alt="icon" data-tilt/>
+              <hr />
+              <p data-aos="fade-down" data-aos-delay="500">Flash TWRP</p>
+              <p data-aos="fade-down" data-aos-delay="800">Root / UnRoot</p>
+              <p data-aos="fade-down" data-aos-delay="600">Flash Stock Rom</p>
+              <p data-aos="fade-down" data-aos-delay="700">Flash Custom Rom</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h3 data-aos="fade-down" data-aos-offset="300">GALLERY</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 1" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 2" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 3" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 4" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 5" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 6" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 7" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 8" />
+            </div>
+          </div>
+          <div class="col-md-4 gallery-card">
+            <div class="card">
+              <img src="img/no-image.webp" class="card-img-top" alt="Picture" title="Image 9" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery -->
+
+    <!-- Contact Us -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h3 data-aos="fade-down" data-aos-offset="300">CONTACT US</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
+              <strong>Thank You!</strong> Message sent successfully.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7" data-aos="zoom-in-right" data-aos-offset="300" data-aos-delay="300">
+            <form name="contact-form">
+              <div class="row mb-3">
+                <div class="col-6">
+                  <input type="text" name="name" class="form-control" id="name" aria-describedby="name" placeholder="Name" />
+                </div>
+                <div class="col-6">
+                  <input type="email" name="email" class="form-control" id="email" aria-describedby="email" placeholder="Email" />
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea name="message" class="form-control" id="message" placeholder="Message" rows="4"></textarea>
+              </div>
+              <button type="submit" class="btn btn-send mb-3">Send</button>
+              <button class="btn btn-loading d-none mb-3" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+          <div class="col-md-5 mb-3" data-aos="zoom-in-left" data-aos-offset="300" data-aos-delay="300">
+            <iframe
+              title="Business Location Map"
+              width="100%"
+              height="211"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=AdrianDroi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col" data-aos="zoom-in-up" data-aos-delay="400">
+            <div id="share-container">
+              <div id="share">
+                <a class="blogger" href="https://adriandroidz.blogspot.com" rel="nofollow noopener" target="_blank" title="Blogger">
+                <svg viewBox="0 0 24 24">
+                <path d="M15.5 14.625c0 .484-.387.875-.864.875h-5.273c-.477 0-.863-.392-.863-.875s.387-.875.863-.875h5.272c.478 0 .865.391.865.875zm-6.191-4.375h2.466c.448 0 .809-.392.809-.875s-.361-.875-.81-.875h-2.465c-.447 0-.809.392-.809.875s.362.875.809.875zm14.691 1.75c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-1.039c0-.383-.311-.692-.691-.692h-1.138c-.583 0-.69-.446-.69-.996-.001-2.36-1.91-4.273-4.265-4.273h-2.952c-2.355 0-4.264 1.913-4.264 4.272v5.455c0 2.36 1.909 4.273 4.264 4.273h5.474c2.353 0 4.262-1.913 4.262-4.272v-3.767z" fill="#ff5722">
+                </path>
+                </svg>
+                </a>
+                
+                <a class="facebook" href="https://www.facebook.com/adriandroids" rel="nofollow noopener" target="_blank" title="facebook">
+                <svg viewBox="0 0 24 24">
+                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z" fill="#3a579a">
+                </svg>
+                </a>
+                
+                <a class="instagram" href="https://www.instagram.com/adriandroids" rel="nofollow noopener" target="_blank" title="Instagram">
+                <svg viewBox="0 0 24 24">
+                <path d="M14.829 6.302c-.738-.034-.96-.04-2.829-.04s-2.09.007-2.828.04c-1.899.087-2.783.986-2.87 2.87-.033.738-.041.959-.041 2.828s.008 2.09.041 2.829c.087 1.879.967 2.783 2.87 2.87.737.033.959.041 2.828.041 1.87 0 2.091-.007 2.829-.041 1.899-.086 2.782-.988 2.87-2.87.033-.738.04-.96.04-2.829s-.007-2.09-.04-2.828c-.088-1.883-.973-2.783-2.87-2.87zm-2.829 9.293c-1.985 0-3.595-1.609-3.595-3.595 0-1.985 1.61-3.594 3.595-3.594s3.595 1.609 3.595 3.594c0 1.985-1.61 3.595-3.595 3.595zm3.737-6.491c-.464 0-.84-.376-.84-.84 0-.464.376-.84.84-.84.464 0 .84.376.84.84 0 .463-.376.84-.84.84zm-1.404 2.896c0 1.289-1.045 2.333-2.333 2.333s-2.333-1.044-2.333-2.333c0-1.289 1.045-2.333 2.333-2.333s2.333 1.044 2.333 2.333zm-2.333-12c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.958 14.886c-.115 2.545-1.532 3.955-4.071 4.072-.747.034-.986.042-2.887.042s-2.139-.008-2.886-.042c-2.544-.117-3.955-1.529-4.072-4.072-.034-.746-.042-.985-.042-2.886 0-1.901.008-2.139.042-2.886.117-2.544 1.529-3.955 4.072-4.071.747-.035.985-.043 2.886-.043s2.14.008 2.887.043c2.545.117 3.957 1.532 4.071 4.071.034.747.042.985.042 2.886 0 1.901-.008 2.14-.042 2.886z" fill="#8134af">
+                </path>
+                </svg>
+                </a>
+                
+                <a class="whatsapp" href="https://api.whatsapp.com/send?phone=&amp;text=AdrianDroid%20%2D%20https://adriandroidz.blogspot.com" rel="nofollow noopener" target="_blank" title="whatsapp">
+                <svg viewBox="0 0 24 24">
+                <path d="M16.75,13.96C17,14.09 17.16,14.16 17.21,14.26C17.27,14.37 17.25,14.87 17,15.44C16.8,16 15.76,16.54 15.3,16.56C14.84,16.58 14.83,16.92 12.34,15.83C9.85,14.74 8.35,12.08 8.23,11.91C8.11,11.74 7.27,10.53 7.31,9.3C7.36,8.08 8,7.5 8.26,7.26C8.5,7 8.77,6.97 8.94,7H9.41C9.56,7 9.77,6.94 9.96,7.45L10.65,9.32C10.71,9.45 10.75,9.6 10.66,9.76L10.39,10.17L10,10.59C9.88,10.71 9.74,10.84 9.88,11.09C10,11.35 10.5,12.18 11.2,12.87C12.11,13.75 12.91,14.04 13.15,14.17C13.39,14.31 13.54,14.29 13.69,14.13L14.5,13.19C14.69,12.94 14.85,13 15.08,13.08L16.75,13.96M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C10.03,22 8.2,21.43 6.65,20.45L2,22L3.55,17.35C2.57,15.8 2,13.97 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12C4,13.72 4.54,15.31 5.46,16.61L4.5,19.5L7.39,18.54C8.69,19.46 10.28,20 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z" fill="#25d366">
+                </path>
+                </svg>
+                </a>  
+                
+                <a class="youtube" href="https://www.youtube.com/adriandroid" rel="nofollow noopener" target="_blank" title="YouTube">
+                <svg viewBox="0 0 24 24">
+                <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z" fill=#cb2027>
+                </path>
+                </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#2f3042"
+          fill-opacity="1"
+          d="M0,128L48,138.7C96,149,192,171,288,160C384,149,480,107,576,90.7C672,75,768,85,864,117.3C960,149,1056,203,1152,202.7C1248,203,1344,149,1392,122.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End Contact Us -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <p>
+        Copyright &#169;
+        <script type="text/javascript">
+          var creditsyear = new Date();
+          document.write(creditsyear.getFullYear());
+        </script>
+        <a href="#">AdrianDroid</a>
+      </p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-card");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "zoom-in";
+        img.dataset.aosDelay = i * 300;
+        img.dataset.aosDuration = 1000;
+      });
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+
+    <!-- Google Sheets -->
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbxG231zrgmxj9atzTQWqLPIDP9l71tCQAKg4tkmgmSnPQdcAvKwxo6Ot7mCEcXcKV93/exec";
+      const form = document.forms["contact-form"];
+      const btnSend = document.querySelector(".btn-send");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        // Click Submit Button
+        // Show Loading Button, Hide Send Button
+        btnLoading.classList.toggle("d-none");
+        btnSend.classList.toggle("d-none");
+
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            // Show Send Button, Hide Loading Button
+            btnLoading.classList.toggle("d-none");
+            btnSend.classList.toggle("d-none");
+            // Show Alert
+            myAlert.classList.toggle("d-none");
+            // Reset Form
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    <!-- Tilt JS -->
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+
+    <!-- Opening Hours -->
+    <script>
+      var dayOfWeek = (new Date).getDay();
+      var hours = [
+             "Sunday, 09.00 – 21.00",         
+             "Monday, 09.00 – 21.00",   
+             "Tuesday, 09.00 – 21.00",   
+             "Wednesday, 09.00 – 21.00",   
+             "Thursday, 09.00 – 21.00",   
+             "Friday, 10.00 – 22.00",   
+             "Saturday, 10.00 – 22.00"
+            ];
+      var todaysHours = hours[dayOfWeek];
+      document.getElementById("hours").innerHTML = todaysHours;
+    </script>
+
+  </body>
+</html>
