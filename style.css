@@ -8,6 +8,9 @@ section {
 }
 
 /* Navbar */
+.nav {
+  background-color: #2f3042;
+}
 
 /* Jumbotron */
 .jumbotron {
