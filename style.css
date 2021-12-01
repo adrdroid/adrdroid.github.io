@@ -7,6 +7,11 @@ section {
   padding-top: 5rem;
 }
 
+.img {
+  width: 100%;
+  height: auto;
+}
+
 /* Navbar */
 .navbar {
   background-color: #2f3042;
@@ -30,7 +35,7 @@ section {
 }
 
 /* Our Service */
-#card-service img:hover {
+#card-service:hover img {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
@@ -42,7 +47,7 @@ section {
 }
 
 .dn {
-  color: #2f3042;
+  color: transparent;
 }
 
 /* Gallery */
@@ -58,6 +63,11 @@ section {
 .card {
   background: #222433;
   align-items: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
 }
 
 .card:hover {
