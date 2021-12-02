@@ -7,6 +7,17 @@ section {
   padding-top: 5rem;
 }
 
+.btn-primary {
+  width: 100%;
+  background-color: #1e1d2b;
+  border: #1e1d2b;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #222433;
+}
+
 .img {
   width: 100%;
   height: auto;
@@ -75,12 +86,6 @@ section {
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-}
-
-#video {
-  border-radius: 0.25rem;
-  width: 100%;
-  height: auto;
 }
 
 /* Contact Us */

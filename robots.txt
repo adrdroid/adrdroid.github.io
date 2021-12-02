@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /search
-
-Sitemap: https://adrdroid.github.io/sitemap.xml
