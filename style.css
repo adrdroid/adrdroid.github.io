@@ -84,6 +84,10 @@ section {
 }
 
 /* Contact Us */
+#contact {
+  padding-bottom: 3rem !important;
+}
+
 .my-alert {
   padding: 0.375rem 0.75rem;
 }
@@ -232,9 +236,14 @@ section {
   background: #cb2027;
 }
 
+/* Google Reviews */
+#reviews {
+  background-color: #2f3042;
+}
+
 /* Footer */
 footer {
-  background-color: #2f3042;
+  background-color: #1e1d2b;
   padding-bottom: 25px;
 }
 
