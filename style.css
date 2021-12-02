@@ -116,10 +116,12 @@ section {
   color: #fff;
 }
 
-#gmap_canvas {
+#maps {
   -webkit-border-radius: 0.25rem;
   -moz-border-radius: 0.25rem;
   border-radius: 0.25rem;
+  width: 100%;
+  height: 211px;
 }
 
 .share-this {
