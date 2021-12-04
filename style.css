@@ -28,6 +28,15 @@ section {
   background-color: #2f3042;
 }
 
+#navbarNav .navbar-nav .nav-item .nav-link.active,
+#navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #ccc;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
 /* Jumbotron */
 .jumbotron {
   padding-top: 5rem;
