@@ -1,2 +1,48 @@
-plugins:
-  - jekyll-sitemap
+<div class="container">
+    <div class="row mb-3 services">
+      <div class="col-md card-service">
+          <img 
+            width="123" 
+            height="200" 
+            src="img/icon1.webp" 
+            alt="icon" 
+            title="Services" 
+            loading="lazy"
+          />
+        <span>
+          <h6>Unlock</h6>
+          <p>Bypass FRP, Bypass Mi Account</p>
+          <p>Forgot Screen Lock, Unlock Bootloader</p>
+        </span>
+      </div>
+      <div class="col-md card-service">
+          <img 
+            width="123" 
+            height="200" 
+            src="img/icon2.webp" 
+            alt="icon" 
+            title="Services" 
+            loading="lazy"
+          />
+        <span>
+          <h6>Others</h6>
+          <p>Remove Bloatware, Software Problem</p>
+        </span>
+      </div>
+      <div class="col-md card-service">
+          <img 
+            width="123" 
+            height="200" 
+            src="img/icon3.webp" 
+            alt="icon" 
+            title="Services" 
+            loading="lazy"
+          />
+        <span>
+          <h6>Flashing</h6>
+          <p>Flash TWRP, Root / UnRoot</p>
+          <p>Flash Stock Rom, Flash Custom Rom</p>
+        </span>
+      </div>
+    </div>
+  </div>

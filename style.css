@@ -55,19 +55,38 @@ section {
 }
 
 /* Our Service */
-#card-service:hover img {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+#service {
+  margin-bottom: 3rem;
 }
 
-#card-service:hover {
-  -ms-transform: scale(1.03);
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+.card-body {
+  background-color: #2f3042;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
 }
 
-.dn {
-  color: transparent;
+.card-body span {
+  padding-top: 5px;
+}
+
+.card-body img {
+  width: 43px;
+  height: auto;
+  margin-right: 7px;
+}
+
+.card-body h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body p {
+  font-size: 12px;
+  margin-bottom: 0rem;
+  color: #ccc;
+  font-weight: 400;
 }
 
 /* Gallery */
