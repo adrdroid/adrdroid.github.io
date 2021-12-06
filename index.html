@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- My CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
   <title>AdrianDroid</title>
 </head>
@@ -520,6 +520,9 @@
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
+  <!-- My JS -->
+  <script src="js/script.js"></script>
+
   <!-- AOS JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
@@ -548,51 +551,9 @@
     gtag('config', 'G-1C82S4DJYZ');
   </script>
 
-  <!-- Google Sheets -->
-  <script>
-    const scriptURL = "https://script.google.com/macros/s/AKfycbxG231zrgmxj9atzTQWqLPIDP9l71tCQAKg4tkmgmSnPQdcAvKwxo6Ot7mCEcXcKV93/exec";
-    const form = document.forms["contact-form"];
-    const btnSend = document.querySelector(".btn-send");
-    const btnLoading = document.querySelector(".btn-loading");
-    const myAlert = document.querySelector(".my-alert");
 
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      // Click Submit Button
-      // Show Loading Button, Hide Send Button
-      btnLoading.classList.toggle("d-none");
-      btnSend.classList.toggle("d-none");
+  <!-- Cookie Consent -->
+  <script src="https://cdn.websitepolicies.io/lib/cookieconsent/1.0.3/cookieconsent.min.js" defer></script>
 
-      fetch(scriptURL, { method: "POST", body: new FormData(form) })
-        .then((response) => {
-          // Show Send Button, Hide Loading Button
-          btnLoading.classList.toggle("d-none");
-          btnSend.classList.toggle("d-none");
-          // Show Alert
-          myAlert.classList.toggle("d-none");
-          // Reset Form
-          form.reset();
-          console.log("Success!", response);
-        })
-        .catch((error) => console.error("Error!", error.message));
-    });
-  </script>
-
-  <!-- Opening Hours -->
-  <script>
-    var dayOfWeek = (new Date).getDay();
-    var hours = [
-            "Sunday, 09.00 – 21.00",
-            "Monday, 09.00 – 21.00",
-            "Tuesday, 09.00 – 21.00",
-            "Wednesday, 09.00 – 21.00",
-            "Thursday, 09.00 – 21.00",
-            "Friday, 10.00 – 22.00",
-            "Saturday, 10.00 – 22.00"
-          ];
-    var todaysHours = hours[dayOfWeek];
-    document.getElementById("hours").innerHTML = todaysHours;
-  </script>
-
-  </body>
+</body>
 </html>
