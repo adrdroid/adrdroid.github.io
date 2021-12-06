@@ -1,6 +1,7 @@
 body {
   background-color: #1e1d2b;
   color: #fff;
+  position: relative;
 }
 
 section {
@@ -23,6 +24,13 @@ section {
   height: auto;
 }
 
+h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 /* Navbar */
 .navbar {
   background-color: #2f3042;
@@ -30,11 +38,12 @@ section {
 
 #navbarNav .navbar-nav .nav-item .nav-link.active,
 #navbarNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ccc;
+  color: #fff;
+  font-weight: 400;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #adb5bd;
 }
 
 /* Jumbotron */
@@ -285,10 +294,6 @@ footer a:link {
   text-decoration: none;
 }
 
-a {
-  color: #fff;
-}
-
-a:hover {
+footer a:hover {
   color: #ccc;
 }

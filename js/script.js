@@ -1,3 +1,8 @@
+// ScrollSpy
+var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: "#navbarNav",
+});
+
 // Googl Sheets
 const scriptURL = "https://script.google.com/macros/s/AKfycbxG231zrgmxj9atzTQWqLPIDP9l71tCQAKg4tkmgmSnPQdcAvKwxo6Ot7mCEcXcKV93/exec";
 const form = document.forms["contact-form"];
