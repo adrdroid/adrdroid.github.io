@@ -88,7 +88,7 @@ h3 {
 
 .card-body h6 {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .card-body p {
@@ -281,6 +281,59 @@ h3 {
 /* Google Reviews */
 #reviews {
   background-color: #2f3042;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #1e1d2b;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.25rem;
+}
+
+.swiper-slide img {
+  margin-top: 15px;
+  background-color: #2f3042;
+  display: block;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.swiper-slide p {
+  color: #ccc;
+  font-size: 10px;
+}
+
+.bi-star-fill {
+  color: #ff5722;
+  font-size: 16px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: -1px;
 }
 
 /* Footer */
