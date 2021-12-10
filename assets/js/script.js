@@ -3,6 +3,27 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: "#navbarNav",
 });
 
+// Opening Hours
+var dayOfWeek = new Date().getDay();
+var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.00 – 21.00", "Wednesday, 09.00 – 21.00", "Thursday, 09.00 – 21.00", "Friday, 10.00 – 22.00", "Saturday, 10.00 – 22.00"];
+var todaysHours = hours[dayOfWeek];
+document.getElementById("hours").innerHTML = todaysHours;
+
+// AOS JS
+const galleryImage = document.querySelectorAll(".gallery-card");
+
+galleryImage.forEach((img, i) => {
+  img.dataset.aos = "zoom-in";
+  img.dataset.aosDelay = i * 300;
+  img.dataset.aosOffset = "300";
+  img.dataset.aosDuration = 1000;
+});
+
+AOS.init({
+  once: true,
+  duration: 1000,
+});
+
 // Googl Sheets
 const scriptURL = "https://script.google.com/macros/s/AKfycbxG231zrgmxj9atzTQWqLPIDP9l71tCQAKg4tkmgmSnPQdcAvKwxo6Ot7mCEcXcKV93/exec";
 const form = document.forms["contact-form"];
@@ -30,12 +51,6 @@ form.addEventListener("submit", (e) => {
     })
     .catch((error) => console.error("Error!", error.message));
 });
-
-// Opening Hours
-var dayOfWeek = new Date().getDay();
-var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.00 – 21.00", "Wednesday, 09.00 – 21.00", "Thursday, 09.00 – 21.00", "Friday, 10.00 – 22.00", "Saturday, 10.00 – 22.00"];
-var todaysHours = hours[dayOfWeek];
-document.getElementById("hours").innerHTML = todaysHours;
 
 // Cookie Consent
 window.addEventListener("load", function () {
