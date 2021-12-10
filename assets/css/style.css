@@ -98,6 +98,14 @@ h3 {
   font-weight: 400;
 }
 
+.card-body:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  background-color: #222433;
+}
+
 /* Gallery */
 #gallery {
   background-color: #2f3042;
@@ -303,6 +311,15 @@ h3 {
   align-items: center;
   flex-direction: column;
   border-radius: 0.25rem;
+}
+
+.swiper-slide:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+  background-color: #222433;
 }
 
 .swiper-slide img {
