@@ -13,6 +13,7 @@ section {
   background-color: #1e1d2b;
   border: #1e1d2b;
   color: #fff;
+  transition: 0.3s ease background-color;
 }
 
 .btn-primary:hover {
@@ -74,6 +75,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
+  transition: 0.3s ease;
 }
 
 .card-body span {
@@ -119,6 +121,7 @@ h3 {
 .card {
   background: #222433;
   align-items: center;
+  transition: 0.3s ease;
 }
 
 .card-img-top {
@@ -162,6 +165,7 @@ h3 {
   background-color: #2f3042;
   border: #2f3042;
   color: #fff;
+  transition: 0.3s ease background-color;
 }
 
 .btn-send:hover {
@@ -311,6 +315,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   border-radius: 0.25rem;
+  transition: 0.3s ease;
 }
 
 .swiper-slide:hover {
@@ -318,7 +323,6 @@ h3 {
   -webkit-transform: scale(1.03);
   transform: scale(1.03);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-
   background-color: #222433;
 }
 
@@ -343,7 +347,8 @@ h3 {
 
 .bi-star-fill {
   color: #ff5722;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets,
