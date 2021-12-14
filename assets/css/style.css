@@ -353,6 +353,10 @@ h3 {
   bottom: -1px;
 }
 
+.swiper-pagination-bullet-active {
+  background: #495057;
+}
+
 /* Footer */
 footer {
   background-color: #1e1d2b;
