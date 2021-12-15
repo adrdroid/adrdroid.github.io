@@ -506,11 +506,11 @@ footer a:hover {
 }
 
 /* Privacy Policy Page */
-.header {
+.privacy-header {
   background-color: #2f3042;
 }
 
-.header h2 {
+.privacy-header h2 {
   font-family: "Autour One";
   padding-top: 2rem;
 }
@@ -519,7 +519,7 @@ footer a:hover {
   margin-top: -30px !important;
 }
 
-#content a:link {
+#content a {
   color: #ccc;
   text-decoration: none;
 }
@@ -537,7 +537,7 @@ footer a:hover {
   margin-bottom: 0;
 }
 
-.footer a {
+.footer a:link {
   color: #fff;
   text-decoration: none;
 }
