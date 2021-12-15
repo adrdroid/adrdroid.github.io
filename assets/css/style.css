@@ -485,7 +485,7 @@ footer {
   background-color: #1e1d2b;
 }
 
-footer a:link {
+footer a {
   color: #fff;
   text-decoration: none;
 }
@@ -537,7 +537,7 @@ footer a:hover {
   margin-bottom: 0;
 }
 
-.footer a:link {
+.footer a {
   color: #fff;
   text-decoration: none;
 }
