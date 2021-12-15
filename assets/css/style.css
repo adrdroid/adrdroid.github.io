@@ -100,6 +100,18 @@ h3 {
   font-weight: 400;
 }
 
+.card-body:hover span {
+  padding-top: 2px !important;
+}
+
+.card-body:hover h6 {
+  font-size: 16px !important;
+}
+
+.card-body:hover p {
+  font-size: 14px !important;
+}
+
 .card-body:hover {
   background: linear-gradient(45deg, #29323c, #2f3042, #485563, #222433);
   background-size: 500% 500%;
@@ -457,4 +469,15 @@ footer a:link {
 
 footer a:hover {
   color: #ccc;
+}
+
+/* Cookie Consent */
+.wpcc-color-custom--150269176 .wpcc-btn {
+  text-decoration: none;
+}
+
+.wpcc-color-custom--150269176 .wpcc-privacy,
+.wpcc-color-custom--150269176 .wpcc-privacy:active,
+.wpcc-color-custom--150269176 .wpcc-privacy:visited {
+  text-decoration: none;
 }
