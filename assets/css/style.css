@@ -504,3 +504,65 @@ footer a:hover {
 .wpcc-color-custom--150269176 .wpcc-privacy:visited {
   text-decoration: none;
 }
+
+/* Privacy Policy Page */
+.header {
+  background-color: #2f3042;
+}
+
+.header h2 {
+  font-family: "Autour One";
+  padding-top: 2rem;
+}
+
+#content {
+  margin-top: -30px !important;
+}
+
+#content a:link {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#content a:hover {
+  color: #fff;
+}
+
+.footer {
+  background-color: #2f3042;
+}
+
+.footer p {
+  padding-bottom: 17px;
+  margin-bottom: 0;
+}
+
+.footer a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #fff;
+  text-shadow: 0 0 0.5em #212529, 0 0 0.5em #212529, 0 0 0.5em #212529;
+  border-radius: 50px;
+  margin: 4px;
+}
+
+.back-to-top:hover {
+  color: #ccc;
+  text-shadow: 0 0 0.5em #1d1d1d, 0 0 0.5em #1d1d1d, 0 0 0.5em #1d1d1d;
+}
+
+.bi-arrow-up-circle::before {
+  font-weight: 600 !important;
+  opacity: 0.5;
+}
