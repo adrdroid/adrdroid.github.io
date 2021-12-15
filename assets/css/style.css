@@ -301,7 +301,9 @@ h3 {
   border-radius: 0.25rem;
   width: 100%;
   height: 212px;
-  background-image: url("/assets/img/maps.png");
+  background-image: url("/assets/img/maps.webp") !important;
+  background-size: cover;
+  background-color: #2f3042;
 }
 
 .share-this {
