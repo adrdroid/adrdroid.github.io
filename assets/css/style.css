@@ -73,6 +73,7 @@ h3 {
   padding-top: 5rem;
   background-color: #2f3042;
   color: #fff;
+  padding-bottom: 3rem;
 }
 
 #h4-title {
@@ -87,8 +88,8 @@ h3 {
 
 /* Wave Animation */
 section .waves {
-  margin-top: 2rem;
-  margin-bottom: -4rem !important;
+  margin-top: 12rem;
+  margin-bottom: -12rem !important;
 }
 
 section .wave {
@@ -96,49 +97,49 @@ section .wave {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 150px;
-  background: url(/assets/img/wave.svg);
-  background-size: 1000px 150px;
+  height: 300px;
+  background: url(/assets/img/wave.png);
+  background-size: 1000px 300px;
 }
 
 section .wave.wave1 {
-  animation: animate 30s linear infinite;
+  animation: animate 10s linear infinite;
   z-index: 1000;
-  opacity: 1;
+  opacity: 0.5;
   animation-delay: 0s;
   bottom: 0;
 }
 
 section .wave.wave2 {
-  animation: animate2 15s linear infinite;
+  animation: animate2 5s linear infinite;
   z-index: 999;
-  opacity: 0.5;
+  opacity: 0.2;
   animation-delay: -5s;
-  bottom: 10px;
+  bottom: -10px !important;
 }
 
 .section .wave.wave3 {
-  animation: animate2 15s linear infinite;
+  animation: animate 5s linear infinite;
   z-index: 998;
-  opacity: 0.2;
+  opacity: 0.7;
   animation-delay: -2s;
-  bottom: 15px;
+  bottom: -15px !important;
 }
 
 .section .wave.wave4 {
-  animation: animate2 30s linear infinite;
+  animation: animate2 5s linear infinite;
   z-index: 997;
-  opacity: 0.7;
-  animation-delay: -5s;
-  bottom: 20px;
+  opacity: 1;
+  animation-delay: -6s;
+  bottom: -20px !important;
 }
 
 @keyframes animate {
   0% {
-    background-position-x: 0;
+    background-position-x: 1000px;
   }
   100% {
-    background-position-x: 1000px;
+    background-position-x: 0;
   }
 }
 
