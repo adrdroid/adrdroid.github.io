@@ -9,6 +9,21 @@ var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.
 var todaysHours = hours[dayOfWeek];
 document.getElementById("hours").innerHTML = todaysHours;
 
+// Show Hide Today's Hours
+function hide(elementID) {
+  var myElement = document.getElementById(elementID);
+  if (myElement) myElement.style.display = "none";
+  showLink.style.display = "block";
+  hideLink.style.display = "none";
+}
+
+function show(elementID) {
+  var myElement = document.getElementById(elementID);
+  if (myElement) myElement.style.display = "block";
+  showLink.style.display = "none";
+  hideLink.style.display = "block";
+}
+
 // Swiper
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
