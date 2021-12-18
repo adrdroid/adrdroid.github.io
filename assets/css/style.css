@@ -93,7 +93,7 @@ section {
 .navbar {
   background-color: #2f3042;
   letter-spacing: 0.5px;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -132,6 +132,7 @@ section {
 /* Show Hide Today's Hours */
 .table > :not(caption) > * > * {
   color: #fff;
+  font-size: 14px;
   border-bottom-width: 0;
   background-color: #1e1d2b;
 }
