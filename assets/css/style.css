@@ -58,7 +58,32 @@ section {
   object-fit: cover;
 }
 
-h3 {
+/* Tittle */
+
+.divider-custom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider-custom .divider-custom-line {
+  width: 100%;
+  max-width: 2rem;
+  height: 0.25rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  border-color: #fff;
+}
+.divider-custom .divider-custom-line:first-child {
+  margin-right: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+.divider-custom .divider-custom-line:last-child {
+  margin-left: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.divider-custom h3 {
   font-family: "Bebas Neue";
   font-size: 32px;
   letter-spacing: 1px;
