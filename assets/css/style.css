@@ -39,9 +39,8 @@
 
 /* Media Query */
 @media (max-width: 768px) {
-  .waves {
-    height: 40px;
-    min-height: 40px;
+  body {
+    bottom: 3rem;
   }
   section {
     padding-top: 2rem !important;
@@ -53,8 +52,18 @@
   .privacy {
     margin-top: 3rem;
   }
-  body {
-    bottom: 3rem;
+  #h4-title {
+    font-size: 35px;
+  }
+  #p-tittle {
+    font-size: 20px;
+  }
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  .back-to-top {
+    bottom: 60px !important;
   }
 }
 
@@ -78,7 +87,7 @@ section {
 }
 
 .pattern {
-  background-image: url(/assets/img/pattern.png);
+  background-image: url(/assets/img/pattern.webp);
 }
 
 /* Button Primary*/
