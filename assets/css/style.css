@@ -158,6 +158,9 @@ section {
   font-family: "Autour One";
 }
 
+.jumbotron img {
+  max-width: 600px;
+}
 .jumbotron h6 {
   font-weight: 600;
   letter-spacing: 1px;
