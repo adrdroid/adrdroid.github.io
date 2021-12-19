@@ -1,3 +1,12 @@
+/* =========================================================
+  * Template Name : Navy Blue- v1.0
+  * Author        : AdrianDroid
+  * Facebook      : https://www.facebook.com/adriandroids
+  * Instagram     : https://www.instagram.com/adriandroids
+  * Blogger       : https://adriandroidz.blogspot.com
+  * YouTube       : https://www.youtube.com/adriandroid
+  ========================================================== */
+
 /* Fonts Autour One */
 @font-face {
   font-family: "Autour One";
@@ -28,6 +37,21 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* Media Query */
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+  section {
+    padding-top: 2rem;
+    position: relative;
+  }
+  body {
+    bottom: 3rem;
+  }
+}
+
 body {
   background-color: #1e1d2b;
   color: #fff;
@@ -35,11 +59,23 @@ body {
   font-family: "Quicksand";
 }
 
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Section Background */
 section {
   padding-top: 5rem;
   position: relative;
 }
 
+.pattern {
+  background-image: url(/assets/img/pattern.png);
+}
+
+/* Button Primary*/
 .btn-primary {
   width: 100%;
   background-color: #1e1d2b;
@@ -50,12 +86,6 @@ section {
 
 .btn-primary:hover {
   background-color: #222433;
-}
-
-.img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 
 /* Tittle */
@@ -152,68 +182,45 @@ section {
 }
 
 /* Wave Animation */
-section .waves {
+.waves {
+  position: relative;
   margin-top: 12rem;
   margin-bottom: -12rem !important;
-}
-
-section .wave {
-  position: absolute;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  height: 300px;
-  background: url(/assets/img/wave.png);
-  background-size: 1000px 300px;
+  height: 15vh;
+  margin-bottom: -7px; /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 150px;
+  bottom: 9rem;
 }
 
-section .wave.wave1 {
-  animation: animate 10s linear infinite;
-  z-index: 1000;
-  opacity: 0.5;
-  animation-delay: 0s;
-  bottom: 0;
-}
+/* Animation */
 
-section .wave.wave2 {
-  animation: animate2 5s linear infinite;
-  z-index: 999;
-  opacity: 0.2;
-  animation-delay: -5s;
-  bottom: -10px !important;
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
-
-.section .wave.wave3 {
-  animation: animate 5s linear infinite;
-  z-index: 998;
-  opacity: 0.7;
+.parallax > use:nth-child(1) {
   animation-delay: -2s;
-  bottom: -15px !important;
+  animation-duration: 7s;
 }
-
-.section .wave.wave4 {
-  animation: animate2 5s linear infinite;
-  z-index: 997;
-  opacity: 0.8;
-  animation-delay: -6s;
-  bottom: -20px !important;
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
 }
-
-@keyframes animate {
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
   0% {
-    background-position-x: 1000px;
+    transform: translate3d(-90px, 0, 0);
   }
   100% {
-    background-position-x: 0;
-  }
-}
-
-@keyframes animate2 {
-  0% {
-    background-position-x: 0;
-  }
-  100% {
-    background-position-x: 1000px;
+    transform: translate3d(85px, 0, 0);
   }
 }
 

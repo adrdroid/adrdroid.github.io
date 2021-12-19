@@ -37,6 +37,7 @@
 
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbarNav">
+
   <!-- Desktop Navbar -->
   <nav class="navbar navbar-expand navbar-dark d-none d-md-block d-lg-block d-xl-block fixed-top">
     <div class="container" data-aos="zoom-out">
@@ -66,9 +67,9 @@
   </nav>
 
   <!-- Mobile Navbar -->
-  <nav class="navbar navbar-dark navbar-expand fixed-top shadow-sm d-md-none d-lg-none d-xl-none">
+  <nav class="navbar navbar-dark navbar-expand fixed-bottom shadow-lg d-md-none d-lg-none d-xl-none">
   <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav nav-justified w-100" data-aos="zoom-out">
+    <ul class="navbar-nav nav-justified w-100">
       <li class="nav-item" >
         <a href="#home" class="nav-link" title="Home">
           <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-house" fill="currentColor"
@@ -110,7 +111,7 @@
           <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
               xmlns="http://www.w3.org/2000/svg">
               <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-            </svg>
+          </svg>
         </a>
       </li>
     </ul>
@@ -119,7 +120,7 @@
   <!-- End Navbar -->
 
   <!-- Jumbotron -->
-  <section class="jumbotron mb-3" id="home">
+  <section class="jumbotron mb-3 pattern" id="home">
     <div class="container">
       <div class="row text-center justify-content-center">
         <div class="col-md-8 mb-5" data-aos="zoom-in">
@@ -135,40 +136,41 @@
             <p id="hours" data-aos="zoom-in-up" title="Day and Hours"></p>
             <div id="hide" style="display: none;">
               <table class="table">
-                  <tr>
-                    <td>Monday, 09.00 – 21.00</td>
-                    <td>Tuesday, 09.00 – 21.00</td>
-                  </tr>
-                  <tr>
-                    <td>Wednesday, 09.00 – 21.00</td>
-                    <td>Thursday, 09.00 – 21.00</td>
-                  </tr>
-                  <tr>
-                    <td>Friday, 10.00 – 22.00</td>
-                    <td>Saturday, 10.00 – 22.00</td>
-                  </tr>
-                  <tr>
-                    <td colspan="2">Sunday, 09.00 – 21.00</td>
-                  </tr>
+                <tr>
+                  <td>Monday, 09.00 – 21.00</td>
+                  <td>Tuesday, 09.00 – 21.00</td>
+                </tr>
+                <tr>
+                  <td>Wednesday, 09.00 – 21.00</td>
+                  <td>Thursday, 09.00 – 21.00</td>
+                </tr>
+                <tr>
+                  <td>Friday, 10.00 – 22.00</td>
+                  <td>Saturday, 10.00 – 22.00</td>
+                </tr>
+                <tr>
+                  <td colspan="2">Sunday, 09.00 – 21.00</td>
+                </tr>
               </table>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(30, 29, 43,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(30, 29, 43,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(30, 29, 43,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#1e1d2b" />
+    </g>
+    </svg>
   </section>
   <!-- End Jumbotron -->
-
-  <!-- Wave Animation -->
-  <section>
-    <div class="row waves">
-      <div class="wave wave1"></div>
-      <div class="wave wave2"></div>
-      <div class="wave wave3"></div>
-      <div class="wave wave4"></div>
-    </div>
-  </section>
-  <!-- End Wave Animation -->
 
   <!-- Our Services -->
   <section id="services">
@@ -234,7 +236,7 @@
   <!-- End Our Services -->
 
   <!-- Gallery -->
-  <section id="gallery">
+  <section class="pattern" id="gallery">
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col divider-custom" data-aos="fade-down" data-aos-offset="300">
@@ -511,7 +513,7 @@
   <!-- End Contact Us -->
 
   <!-- Google Reviews -->
-  <section id="reviews">
+  <section class="pattern" id="reviews">
     <div class="container mb-3">
       <div class="row text-center mb-3">
         <div class="col divider-custom" data-aos="fade-down" data-aos-offset="300">
@@ -524,6 +526,40 @@
         <div class="col reviews" data-aos="zoom-in" data-aos-offset="300" data-aos-delay="300">
           <div class="swiper mySwiper" title="Google Reviews">
             <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img 
+                src="assets/img/google.webp" 
+                alt="Image" 
+                class="img-fluid rounded-circle mb-3"
+                loading="lazy"
+                >
+                <h6>Adhe Wisnugraha</h6>
+                <p>December 2021</p>
+                <p class="stars">
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill muted"></span>
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img 
+                src="assets/img/google.webp" 
+                alt="Image" 
+                class="img-fluid rounded-circle mb-3"
+                loading="lazy"
+                >
+                <h6>Suriyanto</h6>
+                <p>December 2021</p>
+                <p class="stars">
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill muted"></span>
+                </p>
+              </div>
               <div class="swiper-slide">
                 <img 
                 src="assets/img/google.webp" 
@@ -669,6 +705,23 @@
                 >
                 <h6>Arjhu Joey</h6>
                 <p>October 2021</p>
+                <p class="stars">
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill"></span>
+                  <span class="bi bi-star-fill muted"></span>
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img 
+                src="assets/img/google.webp" 
+                alt="Image" 
+                class="img-fluid rounded-circle mb-3"
+                loading="lazy"
+                >
+                <h6>Adrian Satoto</h6>
+                <p>February 2021</p>
                 <p class="stars">
                   <span class="bi bi-star-fill"></span>
                   <span class="bi bi-star-fill"></span>
