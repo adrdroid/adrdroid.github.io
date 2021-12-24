@@ -207,6 +207,11 @@ section {
   justify-content: center;
 }
 
+table {
+  overflow: hidden;
+  border-radius: 0.25rem;
+}
+
 /* Show Hide Today's Hours */
 .table > :not(caption) > * > * {
   color: #fff;
