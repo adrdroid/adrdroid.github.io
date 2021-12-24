@@ -172,6 +172,11 @@ section {
   border-top: 1px solid #222433;
 }
 
+.nav-link svg {
+  width: 1.7em;
+  height: 1.7em;
+}
+
 #navbarNav .navbar-nav .nav-item .nav-link.active,
 #navbarNav .navbar-nav .nav-item .nav-link:hover {
   color: #fff;
