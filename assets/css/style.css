@@ -662,7 +662,8 @@ p.lightbox-caption {
 
 .swiper-slide p {
   color: #ccc;
-  font-size: 10px;
+  font-size: 12px;
+  letter-spacing: 0.5px;
 }
 
 .bi-star-fill {
