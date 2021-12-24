@@ -62,6 +62,10 @@
     height: 40px;
     min-height: 40px;
   }
+  .float-whatsapp {
+    bottom: 65px !important;
+    right: 10px !important;
+  }
   .back-to-top {
     bottom: 60px !important;
   }
@@ -414,6 +418,18 @@ section {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+/* Lightbox */
+p.lightbox-caption {
+  position: relative;
+  padding: 3px !important;
+  bottom: 24px;
+  z-index: 2;
+  display: block;
+  background: rgb(47, 48, 66, 0.6);
+  font-weight: 600;
+  background-size: cover;
+}
+
 /* Contact Us */
 #contact {
   padding-bottom: 3rem !important;
@@ -666,6 +682,33 @@ footer a:hover {
 .wpcc-color-custom--150269176 .wpcc-privacy:active,
 .wpcc-color-custom--150269176 .wpcc-privacy:visited {
   text-decoration: none;
+}
+
+/* Float WhatsApp */
+.float-whatsapp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2f3042;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  position: fixed;
+  font-size: 30px;
+  color: #25d366;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
+}
+
+.bi-whatsapp::before {
+  margin-top: 12px;
+}
+
+.float-whatsapp:hover {
+  color: #fff;
+  background-color: #25d366;
 }
 
 /* Privacy Policy Page */
