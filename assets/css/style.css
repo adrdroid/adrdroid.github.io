@@ -38,6 +38,24 @@
 }
 
 /* Media Query */
+@media (width: 1024px) {
+  .card-body p {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 322px) {
+  .card-body p {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .card-body p {
+    font-size: 8px !important;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     bottom: 3rem;
@@ -48,6 +66,9 @@
   }
   .jumbo {
     margin-top: 3rem;
+  }
+  .card-body p {
+    font-size: 12px;
   }
   .privacy {
     margin-top: 3rem;
@@ -63,8 +84,8 @@
     min-height: 40px;
   }
   .float-whatsapp {
-    bottom: 65px !important;
-    right: 10px !important;
+    bottom: 68px !important;
+    right: 15px !important;
   }
   .back-to-top {
     bottom: 60px !important;
@@ -294,10 +315,6 @@ section {
 
 .card-body:hover h6 {
   font-size: 16px !important;
-}
-
-.card-body:hover p {
-  font-size: 14px !important;
 }
 
 .card-body:hover {
