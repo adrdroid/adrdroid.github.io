@@ -113,6 +113,8 @@ section {
 
 .pattern {
   background-image: url(/assets/img/pattern.webp);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Button Primary*/
@@ -173,8 +175,8 @@ section {
 }
 
 .nav-link svg {
-  width: 1.7em;
-  height: 1.7em;
+  width: 1.5em;
+  height: 1.5em;
 }
 
 #navbarNav .navbar-nav .nav-item .nav-link.active,
