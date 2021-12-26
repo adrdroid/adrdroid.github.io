@@ -731,6 +731,7 @@ footer a:hover {
   font-size: 30px;
   color: #25d366;
   box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease background-color;
 }
 
 .bi-whatsapp::before {
@@ -783,6 +784,7 @@ footer a:hover {
   text-shadow: 0 0 0.5em #212529, 0 0 0.5em #212529, 0 0 0.5em #212529;
   border-radius: 50px;
   margin: 4px;
+  transition: 0.3s ease background-color;
 }
 
 .back-to-top:hover {
