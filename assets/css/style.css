@@ -533,7 +533,7 @@ p.lightbox-caption {
   display: flex;
   align-items: center;
   padding: 7px;
-  max-width: 190px;
+  max-width: 180px;
   border-radius: 0.25rem;
   background-color: #2f3042;
   color: #fff;
@@ -557,7 +557,7 @@ p.lightbox-caption {
 .rute {
   position: absolute;
   border-radius: 0.25rem;
-  padding: 5px;
+  padding: 0 1px 1px 1px;
   background-color: #2f3042;
   bottom: 5px;
   right: 17px;
