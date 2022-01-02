@@ -101,17 +101,17 @@ a:hover {
   color: #fff;
 }
 
+.img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 body {
   background-color: #1e1d2b;
   color: #fff;
   position: relative;
   font-family: "Quicksand";
-}
-
-.img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
 }
 
 /* Section Background */
@@ -146,6 +146,7 @@ section {
   justify-content: center;
   align-items: center;
 }
+
 .divider-custom .divider-custom-line {
   width: 100%;
   max-width: 2rem;
@@ -154,10 +155,12 @@ section {
   border-radius: 1rem;
   border-color: #fff;
 }
+
 .divider-custom .divider-custom-line:first-child {
   margin-right: 0.5rem;
   margin-bottom: 0.8rem;
 }
+
 .divider-custom .divider-custom-line:last-child {
   margin-left: 0.5rem;
   margin-bottom: 0.8rem;
@@ -172,15 +175,21 @@ section {
 
 /* Navbar */
 .navbar {
-  background-color: #2f3042;
   letter-spacing: 0.5px;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
+.desktop {
+  background-color: rgb(47, 48, 66, 0.7);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
 .mobile {
-  border-top: 1px solid #222433;
+  background-color: #2f3042;
+  border-top: 2px solid #222433;
 }
 
 .nav-link svg {
