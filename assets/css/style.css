@@ -64,6 +64,12 @@
     padding-top: 2rem !important;
     position: relative;
   }
+  .jumbotron img {
+    margin-bottom: -60px;
+  }
+  .title {
+    margin-bottom: 8rem !important;
+  }
   .jumbo {
     margin-top: 3rem;
   }
@@ -208,10 +214,9 @@ section {
 
 /* Jumbotron */
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 3rem;
   background-color: #2f3042;
   color: #fff;
-  padding-bottom: 3rem;
 }
 
 #h4-title {
@@ -219,8 +224,9 @@ section {
 }
 
 .jumbotron img {
-  max-width: 600px;
+  max-width: 500px;
 }
+
 .jumbotron h6 {
   font-weight: 600;
   letter-spacing: 1px;
@@ -230,6 +236,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 table {
@@ -262,8 +269,8 @@ table {
 /* Wave Animation */
 .waves {
   position: relative;
-  margin-top: 12rem;
-  margin-bottom: -12rem !important;
+  margin-top: 4rem;
+  margin-bottom: -9rem !important;
   width: 100%;
   height: 15vh;
   margin-bottom: -7px; /*Fix for safari gap*/
@@ -277,22 +284,27 @@ table {
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
+
 .parallax > use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
 }
+
 .parallax > use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
 }
+
 .parallax > use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
 }
+
 .parallax > use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 @keyframes move-forever {
   0% {
     transform: translate3d(-90px, 0, 0);
