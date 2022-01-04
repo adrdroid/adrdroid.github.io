@@ -554,13 +554,25 @@ p.lightbox-caption {
 }
 
 .zoom h6 {
+  font-size: 16px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  margin-bottom: -1px !important;
+}
+
+p#star {
+  font-size: 12px;
+  margin-bottom: -4px !important;
+}
+
+#star .bi-star-fill {
+  font-size: 12px;
 }
 
 .zoom a {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 00;
+  padding-top: -10px;
 }
 
 .rute {
