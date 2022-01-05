@@ -42,11 +42,14 @@
   .jumbotron {
     padding-top: 5rem !important;
   }
-  #h4-title {
-    font-size: 31px !important;
-  }
   .jumbotron img {
     margin-bottom: 0 !important;
+  }
+  #h4-title {
+    font-size: 26px !important;
+  }
+  #p-tittle {
+    font-size: 18px;
   }
   footer.text-center {
     margin-top: -5px !important;
