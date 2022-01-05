@@ -302,7 +302,6 @@ table {
 }
 
 /* Animation */
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
@@ -341,47 +340,44 @@ table {
   margin-bottom: 3rem;
 }
 
-.card-body {
-  background-color: #2f3042;
-  border-radius: 5px;
+.services {
   display: flex;
   justify-content: center;
-  margin-bottom: 5px;
-  transition: 0.3s ease !important;
 }
 
-.card-body span {
-  padding-top: 5px;
+.card-service {
+  margin-bottom: 1.5rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+  background: #2f3042;
+  padding: 3px;
 }
 
-.card-body img {
-  width: 43px;
-  height: auto;
-  margin-right: 7px;
+.card-service img {
+  background: #1e1d2b;
+  -webkit-border-radius: 1.15rem;
+  -moz-border-radius: 1.15rem;
+  border-radius: 1.15rem;
 }
 
-.card-body h6 {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.card-body p {
-  font-size: 12px;
-  margin-bottom: 0rem;
-  color: #ccc;
+.list-group-item {
+  background: transparent;
+  color: #fff;
   font-weight: 400;
 }
 
-.card-body:hover span {
-  padding-top: 2px !important;
+.li-header {
+  font-size: 1.25rem;
+  font-weight: 600 !important;
+  letter-spacing: 1.5px !important;
 }
 
-.card-body:hover h6 {
-  font-size: 16px !important;
+.li-none {
+  color: #2f3042;
 }
 
-.card-body:hover {
+.card-service:hover {
   background: linear-gradient(45deg, #29323c, #2f3042, #485563, #222433);
   background-size: 500% 500%;
   -ms-transform: scale(1.03);
