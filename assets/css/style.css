@@ -38,6 +38,25 @@
 }
 
 /* Media Query */
+@media (width: 768px) {
+  .jumbotron {
+    padding-top: 5rem !important;
+  }
+  #h4-title {
+    font-size: 31px !important;
+  }
+  .jumbotron img {
+    margin-bottom: 0 !important;
+  }
+  footer.text-center {
+    margin-top: -5px !important;
+    margin-bottom: -3rem !important;
+  }
+  .privacy-header h2 {
+    padding-top: 5rem !important;
+  }
+}
+
 @media (width: 1024px) {
   .card-body p {
     font-size: 10px !important;
