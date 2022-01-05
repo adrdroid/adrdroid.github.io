@@ -45,36 +45,12 @@
   .jumbotron img {
     margin-bottom: 0 !important;
   }
-  #h4-title {
-    font-size: 26px !important;
-  }
-  #p-tittle {
-    font-size: 18px;
-  }
   footer.text-center {
     margin-top: -5px !important;
     margin-bottom: -3rem !important;
   }
   .privacy-header h2 {
     padding-top: 5rem !important;
-  }
-}
-
-@media (width: 1024px) {
-  .card-body p {
-    font-size: 10px !important;
-  }
-}
-
-@media (max-width: 322px) {
-  .card-body p {
-    font-size: 10px !important;
-  }
-}
-
-@media (max-width: 280px) {
-  .card-body p {
-    font-size: 8px !important;
   }
 }
 
@@ -95,17 +71,14 @@
   .jumbo {
     margin-top: 3rem;
   }
-  .card-body p {
-    font-size: 12px;
-  }
   .privacy {
     margin-top: 3rem;
   }
   #h4-title {
-    font-size: 35px;
+    font-size: calc(1.325rem + 0.9vw);
   }
   #p-tittle {
-    font-size: 20px;
+    font-size: 1rem;
   }
   .waves {
     height: 40px;
@@ -352,6 +325,7 @@ table {
   border-radius: 1.25rem;
   background: #2f3042;
   padding: 3px;
+  width: 20rem;
 }
 
 .card-service img {
@@ -359,12 +333,14 @@ table {
   -webkit-border-radius: 1.15rem;
   -moz-border-radius: 1.15rem;
   border-radius: 1.15rem;
+  max-height: 250px;
 }
 
 .list-group-item {
   background: transparent;
   color: #fff;
   font-weight: 400;
+  padding: 0.3rem 1rem;
 }
 
 .li-header {
@@ -388,6 +364,7 @@ table {
   -moz-animation: Gradient 12s ease infinite;
   animation: Gradient 3s ease infinite;
 }
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%;
