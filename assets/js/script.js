@@ -101,5 +101,6 @@ window.addEventListener("load", function () {
     position: "bottom",
     padding: "small",
     margin: "none",
+    content: { href: "https://adrdroid.github.io/privacy-policy.html" },
   });
 });

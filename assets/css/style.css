@@ -344,13 +344,19 @@ table {
 }
 
 .li-header {
+  display: flex;
+  justify-content: space-between;
   font-size: 1.25rem;
   font-weight: 600 !important;
   letter-spacing: 1.5px !important;
 }
 
+.li-header span:hover {
+  color: #ccc;
+}
+
 .li-none {
-  color: #2f3042;
+  color: transparent;
 }
 
 .card-service:hover {
