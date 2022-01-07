@@ -217,7 +217,7 @@ section {
   color: #fff;
 }
 
-#h4-title {
+#h2-title {
   font-family: "Autour One";
 }
 
@@ -353,6 +353,7 @@ table {
   color: #fff;
   font-weight: 400;
   padding: 0.3rem 1rem;
+  letter-spacing: 0.5px !important;
 }
 
 .li-header {
@@ -365,10 +366,6 @@ table {
 
 .li-header span:hover {
   color: #ccc;
-}
-
-.li-none {
-  color: transparent;
 }
 
 .card-service:hover {
