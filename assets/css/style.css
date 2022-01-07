@@ -100,6 +100,9 @@ a {
 
 a:hover {
   color: #fff;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .img {
@@ -237,6 +240,9 @@ section {
 table {
   overflow: hidden;
   border-radius: 0.25rem;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 /* Show Hide Today's Hours */
@@ -254,6 +260,9 @@ table {
   font-size: 16px;
   font-weight: 600;
   letter-spacing: 1px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 #showLink:hover,
@@ -326,6 +335,9 @@ table {
   background: #2f3042;
   padding: 3px;
   width: 20rem;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-service img {
@@ -496,127 +508,8 @@ p.lightbox-caption {
   padding-bottom: 3rem !important;
 }
 
-.my-alert {
-  padding: 0.375rem 0.75rem;
-}
-
-.alert-dismissible .btn-close {
-  padding: 0.64rem 0.75rem;
-}
-
-.form-control {
-  background-color: #2f3042;
-  border: #2f3042;
-  color: #fff;
-}
-
-.form-control:focus-within {
-  background-color: #222433;
-  color: #fff;
-}
-
-.btn-send {
-  width: 100%;
-  background-color: #2f3042;
-  border: #2f3042;
-  color: #fff;
-  transition: 0.3s ease background-color;
-}
-
-.btn-send:hover {
-  background-color: #222433;
-  color: #fff;
-}
-
-.btn-loading {
-  width: 100%;
-  background-color: #2f3042;
-  border: #2f3042;
-  color: #fff;
-}
-
-.maps {
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  border-radius: 0.25rem;
-  top: 1px;
-  width: 100%;
-  height: 212px;
-  background-image: url("/assets/img/maps.png") !important;
-  background-size: cover;
-  background-color: #2f3042;
-}
-
-.zoom {
-  padding: 6px;
-}
-
-.zoom-maps {
-  display: flex;
-  align-items: center;
-  padding: 7px;
-  max-width: 180px;
-  border-radius: 0.25rem;
-  background-color: #2f3042;
-  color: #fff;
-  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
-}
-
-.zoom img {
-  margin-right: 10px;
-}
-
-.zoom h6 {
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  margin-bottom: -1px !important;
-}
-
-p#star {
-  font-size: 12px;
-  margin-bottom: -4px !important;
-}
-
-#star .bi-star-fill {
-  font-size: 12px;
-}
-
-.zoom a {
-  font-size: 12px;
-  font-weight: 00;
-  padding-top: -10px;
-}
-
-.rute {
-  position: absolute;
-  border-radius: 0.25rem;
-  padding: 0 1px 1px 1px;
-  background-color: #2f3042;
-  bottom: 5px;
-  right: 17px;
-  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
-}
-.rute svg {
-  width: 25px;
-  height: 25px;
-  stroke: #fff;
-}
-
 .rute svg:hover {
   stroke: #ccc;
-}
-
-.share-this {
-  display: inline-block;
-  margin: 0;
-  color: inherit;
-  text-transform: uppercase;
-  font-size: 16px;
-  color: #000;
-  background: #fff;
-  padding: 0 10px;
-  margin-top: 3px;
 }
 
 #share-container {
@@ -707,6 +600,115 @@ p#star {
 
 .youtube:hover {
   background: #cb2027;
+}
+
+.my-alert {
+  padding: 0.375rem 0.75rem;
+}
+
+.alert-dismissible .btn-close {
+  padding: 0.64rem 0.75rem;
+}
+
+.form-control {
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+}
+
+.form-control:focus-within {
+  background-color: #222433;
+  color: #fff;
+}
+
+.btn-send {
+  width: 100%;
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+  transition: 0.3s ease background-color;
+}
+
+.btn-send:hover {
+  background-color: #222433;
+  color: #fff;
+}
+
+.btn-loading {
+  width: 100%;
+  background-color: #2f3042;
+  border: #2f3042;
+  color: #fff;
+}
+
+.maps {
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  top: 1px;
+  width: 100%;
+  height: 212px;
+  background-image: url("/assets/img/maps.png") !important;
+  background-size: cover;
+  background-color: #2f3042;
+}
+
+.zoom {
+  padding: 6px;
+}
+
+.zoom-maps {
+  display: flex;
+  align-items: center;
+  padding: 7px;
+  max-width: 180px;
+  border-radius: 0.25rem;
+  background-color: #2f3042;
+  color: #fff;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
+}
+
+.zoom img {
+  margin-right: 10px;
+}
+
+.zoom h6 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: -1px !important;
+}
+
+p#star {
+  font-size: 12px;
+  margin-bottom: -4px !important;
+}
+
+#star .bi-star-fill {
+  font-size: 12px;
+}
+
+.zoom a {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  padding-top: -10px;
+}
+
+.rute {
+  position: absolute;
+  border-radius: 0.25rem;
+  padding: 0 2px 2px 2px;
+  background-color: #2f3042;
+  bottom: 5px;
+  right: 17px;
+  box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15), 0 0 0.2em rgba(0, 0, 0, 0.15);
+}
+
+.rute svg {
+  width: 25px;
+  height: 25px;
+  stroke: #fff;
 }
 
 /* Google Reviews */
