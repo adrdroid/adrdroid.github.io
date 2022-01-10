@@ -38,6 +38,19 @@
 }
 
 /* Media Query */
+@media (max-width: 767px) {
+  .wpcc-color-custom--150269176.wpcc-container {
+    bottom: 55px !important;
+  }
+  .wpcc-banner .wpcc-message {
+    text-align: center;
+    margin-right: 0 !important;
+  }
+  .wpcc-container {
+    font-size: 14px;
+  }
+}
+
 @media (width: 768px) {
   .jumbotron {
     padding-top: 5rem !important;
@@ -714,6 +727,31 @@ p#star {
   background-color: #2f3042;
 }
 
+.rating {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1e1d2b;
+  padding: 5px 5px;
+  border-radius: 0.25rem;
+  align-items: center;
+}
+
+.rating span {
+  display: flex;
+}
+
+.btn-reviews {
+  padding: 0.15rem 0.45rem;
+  background-color: #2f3042;
+  border-radius: 0.25rem;
+  color: #fff;
+  transition: 0.3s ease background-color;
+}
+
+.btn-reviews:hover {
+  background-color: #222433;
+}
+
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -769,17 +807,6 @@ p#star {
   color: #ff5722;
   font-size: 18px;
   font-weight: 600;
-}
-
-.swiper-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-bullets.swiper-pagination-horizontal,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: -1px;
-}
-
-.swiper-pagination-bullet-active {
-  background: #495057;
 }
 
 /* Footer */
