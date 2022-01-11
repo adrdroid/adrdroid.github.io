@@ -38,21 +38,15 @@
 }
 
 /* Media Query */
-@media (max-width: 767px) {
-  .wpcc-color-custom--150269176.wpcc-container {
-    bottom: 55px !important;
-  }
-  .wpcc-container {
-    font-size: 14px;
-  }
-}
-
 @media (width: 768px) {
   .jumbotron {
     padding-top: 5rem !important;
   }
   .jumbotron img {
     margin-bottom: 0 !important;
+  }
+  .views {
+    top: 40px !important;
   }
   footer.text-center {
     margin-top: -5px !important;
