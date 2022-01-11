@@ -3,6 +3,19 @@ var scrollSpy = new bootstrap.ScrollSpy(document.body, {
   target: "#navbarNav",
 });
 
+// Views Counter
+const countEl = document.getElementById("count");
+
+updateVisitCount();
+
+function updateVisitCount() {
+  fetch("https://api.countapi.xyz/hit/adrdroid.github.io/visits")
+    .then((res) => res.json())
+    .then((res) => {
+      countEl.innerHTML = res.value;
+    });
+}
+
 // Opening Hours
 var dayOfWeek = new Date().getDay();
 var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.00 – 21.00", "Wednesday, 09.00 – 21.00", "Thursday, 09.00 – 21.00", "Friday, 10.00 – 22.00", "Saturday, 10.00 – 22.00"];

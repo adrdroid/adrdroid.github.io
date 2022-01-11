@@ -80,6 +80,10 @@
   .jumbo {
     margin-top: 3rem;
   }
+  .views {
+    top: 27px;
+    left: 10px !important;
+  }
   .privacy {
     margin-top: 3rem;
   }
@@ -224,6 +228,25 @@ section {
   padding-top: 5rem;
   background-color: #2f3042;
   color: #fff;
+}
+
+.views {
+  display: flex;
+  align-items: center;
+  background-color: #1e1d2b;
+  padding: 3px;
+  width: 6rem;
+  border-radius: 50px;
+  position: relative;
+  left: 20px;
+  letter-spacing: 0.5px;
+}
+
+.views i {
+  background-color: #2f3042;
+  border-radius: 100px;
+  padding: 2px 6px;
+  margin-right: 5px;
 }
 
 #h2-title {
