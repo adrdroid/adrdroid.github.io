@@ -18,7 +18,7 @@ function updateVisitCount() {
 
 // Opening Hours
 var dayOfWeek = new Date().getDay();
-var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.00 – 21.00", "Wednesday, 09.00 – 21.00", "Thursday, 09.00 – 21.00", "Friday, 10.00 – 22.00", "Saturday, 10.00 – 22.00"];
+var hours = ["Sunday, 09.00 – 21.00", "Monday, 09.00 – 21.00", "Tuesday, 09.00 – 21.00", "Wednesday, 09.00 – 21.00", "Thursday, 09.00 – 21.00", "Friday, 13.00 – 22.00", "Saturday, 10.00 – 22.00"];
 var todaysHours = hours[dayOfWeek];
 document.getElementById("hours").innerHTML = todaysHours;
 
