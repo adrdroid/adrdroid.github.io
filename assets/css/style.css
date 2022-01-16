@@ -72,11 +72,10 @@
     margin-bottom: 3rem !important;
   }
   .jumbo {
-    margin-top: 3rem;
+    margin-top: 1rem !important;
   }
   .views {
-    top: 27px;
-    left: 10px !important;
+    top: 25px !important;
   }
   .privacy {
     margin-top: 3rem;
@@ -224,27 +223,47 @@ section {
   color: #fff;
 }
 
+a .views {
+  color: #fff;
+}
+
 .views {
   display: flex;
   align-items: center;
-  background-color: #1e1d2b;
+  background-color: #222433;
   padding: 3px;
   width: 6rem;
-  border-radius: 50px;
+  border: 2px solid #2f3042;
+  border-radius: 0 50px 50px 0;
   position: relative;
-  left: 20px;
-  letter-spacing: 0.5px;
+  top: -10px;
+  left: -4px;
+  letter-spacing: 0.6px;
+  transition: 0.3s ease background-color !important;
 }
 
 .views i {
   background-color: #2f3042;
   border-radius: 100px;
   padding: 2px 6px;
-  margin-right: 5px;
+  margin: 2px 5px 2px 7px;
+}
+
+.views a {
+  color: #fff;
+}
+
+.views:hover {
+  background-color: #1e1d2b;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
 }
 
 #h2-title {
   font-family: "Autour One";
+}
+
+.jumbo {
+  margin-top: -2rem;
 }
 
 .jumbotron img {
