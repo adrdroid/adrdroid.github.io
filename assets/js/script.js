@@ -37,6 +37,21 @@ function show(elementID) {
   hideLink.style.display = "block";
 }
 
+// AOS
+const galleryImage = document.querySelectorAll(".gallery-card");
+
+galleryImage.forEach((img, i) => {
+  img.dataset.aos = "zoom-in";
+  img.dataset.aosDelay = i * 300;
+  img.dataset.aosOffset = "300";
+  img.dataset.aosDuration = 1000;
+});
+
+AOS.init({
+  once: true,
+  duration: 1000,
+});
+
 // Swiper
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
@@ -62,21 +77,6 @@ var swiper = new Swiper(".mySwiper", {
       spaceBetween: 50,
     },
   },
-});
-
-// AOS
-const galleryImage = document.querySelectorAll(".gallery-card");
-
-galleryImage.forEach((img, i) => {
-  img.dataset.aos = "zoom-in";
-  img.dataset.aosDelay = i * 300;
-  img.dataset.aosOffset = "300";
-  img.dataset.aosDuration = 1000;
-});
-
-AOS.init({
-  once: true,
-  duration: 1000,
 });
 
 // Googl Sheets
