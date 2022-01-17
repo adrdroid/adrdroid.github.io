@@ -12,7 +12,7 @@
     <link href="assets/img/favicon.webp" rel="apple-touch-icon" />
 
     <!-- HTML Meta Tags -->
-    <title>Discussion Forums</title>
+    <title>Questions & Comments</title>
     <meta name="keywords" content="AdrianDroid - Android Flasher" />
     <meta
       name="description"
@@ -47,6 +47,7 @@
     <meta name="twitter:image" content="https://adrdroid.github.io/assets/img/logo.png" />
 
     <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Main CSS -->
@@ -67,7 +68,7 @@
   <body>
     <!-- Desktop Navbar -->
     <nav class="navbar navbar-expand navbar-dark d-none d-md-block d-lg-block d-xl-block fixed-top desktop">
-      <div class="container">
+      <div class="container" data-aos="zoom-out">
         <a class="navbar-brand" href="#">
           <img src="assets/img/logo.webp" width="35" height="35" alt="AdrianDroid" title="Logo AdrianDroid" />
         </a>
@@ -150,7 +151,36 @@
       <div class="container jumbo">
         <div class="row text-center justify-content-center">
           <div class="col-md-8 mb-5" data-aos="zoom-in">
-            <img src="assets/vendor/storyset/animate.svg" width="480" height="480" alt="https://storyset.com/technology" title="Technology - Illustrations by Storyset" />
+            <img id="img-header" src="assets/vendor/storyset/animate.svg" width="480" height="480" alt="https://storyset.com/technology" title="Technology - Illustrations by Storyset" />
+          </div>
+          <div class="col-md-4 title" title="AdrianDroid - Android Flasher">
+            <h2 id="h2-title" data-aos="fade-down">ADRIANDROID</h2>
+            <h6 id="p-tittle" data-aos="fade-up">ANDROID FLASHER</h6>
+            <br />
+            <div class="opening" data-aos="zoom-in-down">
+              <a href="javascript:hide('hide');" id="hideLink" title="Hide Days & Hours" style="display: none">Today's Hours</a>
+              <a href="javascript:show('hide');" id="showLink" title="Show Days & Hours">Today's Hours</a>
+              <p id="hours" data-aos="zoom-in-up" title="Days and Hours"></p>
+              <div id="hide" style="display: none">
+                <table class="table">
+                  <tr>
+                    <td title="Monday, 09.00 – 21.00">Mon, 09.00 – 21.00</td>
+                    <td title="Tuesday, 09.00 – 21.00">Tue, 09.00 – 21.00</td>
+                  </tr>
+                  <tr>
+                    <td title="Wednesday, 09.00 – 21.00">Wed, 09.00 – 21.00</td>
+                    <td title="Thursday, 09.00 – 21.00">Thu, 09.00 – 21.00</td>
+                  </tr>
+                  <tr>
+                    <td title="Friday, 10.00 – 22.00">Fri, 13.00 – 22.00</td>
+                    <td title="Saturday, 10.00 – 22.00">Sat, 10.00 – 22.00</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" title="Sunday, 09.00 – 21.00">Sun, 09.00 – 21.00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -167,29 +197,31 @@
       </svg>
     </section>
     <!-- End Jumbotron -->
+    <!-- End Jumbotron -->
 
     <!-- Form Disqus -->
     <section id="disqus">
       <div class="container">
+        <div class="row mb-5">
+          <div class="col">
+            <h5>Welcome to <span>ADRIANDROID</span></h5>
+            <p>If you have any questions or comments please feel free to share them in the comments below.</p>
+          </div>
+        </div>
         <div class="row">
           <div class="col">
-            <!-- begin wwww.htmlcommentbox.com -->
-            <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
-            <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
-            <script type="text/javascript" id="hcb">
-              /*<!--*/ if (!window.hcb_user) {
-                hcb_user = {};
-              }
+            <div id="disqus_thread"></div>
+            <script>
               (function () {
-                var s = document.createElement("script"),
-                  l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-                  h = "https://www.htmlcommentbox.com";
-                s.setAttribute("type", "text/javascript");
-                s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24Ndhw1x6peEzGotQ.GA.FM1" + "&opts=16798&num=10&ts=1642416841795");
-                if (typeof s != "undefined") document.getElementsByTagName("head")[0].appendChild(s);
-              })(); /*-->*/
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://https-www-adriandroid-xyz.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
             </script>
-            <!-- end www.htmlcommentbox.com -->
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
           </div>
         </div>
       </div>
@@ -217,7 +249,11 @@
     <!-- End Footer -->
 
     <!-- Vendor JS -->
+    <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/script.js"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1C82S4DJYZ"></script>

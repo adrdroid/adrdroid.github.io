@@ -97,6 +97,9 @@
   .back-to-top {
     bottom: 60px !important;
   }
+  #disqus {
+    margin-top: 1rem !important;
+  }
 }
 
 a {
@@ -879,6 +882,19 @@ footer {
 .float-whatsapp:hover {
   color: #fff;
   background-color: #25d366;
+}
+
+/* Discussion */
+#disqus {
+  margin-top: -2rem;
+}
+
+#img-header {
+  margin-top: 1rem;
+}
+
+h5 span {
+  font-family: "Autour One";
 }
 
 /* Privacy Policy Page */
