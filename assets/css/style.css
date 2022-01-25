@@ -45,7 +45,8 @@
   .jumbotron img {
     margin-bottom: 0 !important;
   }
-  .views {
+  .views,
+  .breadcumb {
     top: 53px !important;
   }
   footer.text-center {
@@ -74,7 +75,8 @@
   .jumbo {
     margin-top: 1rem !important;
   }
-  .views {
+  .views,
+  .breadcumb {
     top: 25px !important;
   }
   .privacy {
@@ -225,6 +227,48 @@ section {
   stroke-width: 0.3;
 }
 
+/* Breadcumb */
+.breadcumb {
+  display: flex;
+  align-items: center;
+  background-color: #222433;
+  padding: 3px;
+  width: 15rem;
+  border: 2px solid #2f3042;
+  border-radius: 0 50px 50px 0;
+  position: relative;
+  top: -10px;
+  left: -4px;
+  letter-spacing: 0.6px;
+  transition: 0.3s ease background-color !important;
+}
+
+.breadcumb i {
+  background-color: #2f3042;
+  border-radius: 100px;
+  padding: 2px 6px;
+  margin: 2px 5px 2px 7px;
+}
+
+.breadcumb span i {
+  background-color: transparent;
+  padding: 2px 3px;
+  margin: 0;
+}
+
+.breadcumb a {
+  color: #fff;
+}
+
+.breadcumb a:hover {
+  color: #ccc;
+}
+
+.breadcumb:hover {
+  background-color: #1e1d2b;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
 /* Jumbotron */
 .jumbotron {
   padding-top: 5rem;
@@ -269,6 +313,7 @@ a .views {
 
 #h2-title {
   font-family: "Autour One";
+  font-weight: 400;
 }
 
 .jumbo {
@@ -818,8 +863,6 @@ p#star {
   margin-top: 15px;
   background-color: #2f3042;
   display: block;
-  width: 48px;
-  height: 48px;
   object-fit: cover;
 }
 
@@ -843,6 +886,14 @@ p#star {
 /* Footer */
 footer {
   background-color: #1e1d2b;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #ccc;
 }
 
 /* Cookie Consent */
@@ -882,19 +933,6 @@ footer {
 .float-whatsapp:hover {
   color: #fff;
   background-color: #25d366;
-}
-
-/* Discussion */
-#disqus {
-  margin-top: -2rem;
-}
-
-#img-header {
-  margin-top: 1rem;
-}
-
-h5 span {
-  font-family: "Autour One";
 }
 
 /* Privacy Policy Page */
@@ -940,4 +978,91 @@ h5 span {
 .bi-arrow-up-circle::before {
   font-weight: 600 !important;
   opacity: 0.5;
+}
+
+/* FRP Bypass Page */
+#h1-title {
+  font-family: "Autour One";
+  font-weight: 400;
+}
+
+.content-frp span,
+h4 {
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.card-frp {
+  margin-bottom: 1.5rem;
+  -webkit-border-radius: 1.25rem;
+  -moz-border-radius: 1.25rem;
+  border-radius: 1.25rem;
+  background: #2f3042;
+  padding: 3px;
+  width: 20rem;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card-frp img {
+  width: 20px;
+}
+
+.list-frp {
+  border: none;
+}
+
+.card-service a {
+  color: #fff;
+}
+
+.card-service a:hover {
+  color: #ccc;
+}
+
+.card-frp:hover {
+  background: linear-gradient(45deg, #29323c, #2f3042, #485563, #222433);
+  background-size: 500% 500%;
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-animation: Gradient 12s ease infinite;
+  -moz-animation: Gradient 12s ease infinite;
+  animation: Gradient 3s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
