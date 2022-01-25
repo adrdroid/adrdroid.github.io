@@ -129,6 +129,10 @@ body {
   font-family: "Quicksand";
 }
 
+hr {
+  color: #485563;
+}
+
 /* Section Background */
 section {
   padding-top: 5rem;
