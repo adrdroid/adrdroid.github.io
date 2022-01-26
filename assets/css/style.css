@@ -1070,3 +1070,15 @@ h4 {
     background-position: 0% 50%;
   }
 }
+
+li .bi-star {
+  background-color: #1e1d2b;
+  border-radius: 50px;
+  padding: 1px 3px 2px 4px;
+}
+
+.bi-cloud-arrow-down {
+  background-color: #1e1d2b;
+  border-radius: 50px;
+  padding: 1px 3px 2px 4px;
+}
